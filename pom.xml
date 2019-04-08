@@ -60,6 +60,7 @@
         <module>organization-service</module>
         <module>configuration-server</module>
         <module>eureka-server</module>
+        <module>zuul-server</module>
 	</modules>
 
 </project>
