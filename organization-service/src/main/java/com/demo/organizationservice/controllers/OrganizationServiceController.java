@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping(value = "v1/organizations")
 public class OrganizationServiceController {
+
     @Autowired
     private OrganizationService orgService;
-
 
     @RequestMapping(value = "/{organizationId}", method = RequestMethod.GET)
     public Organization getOrganization(@PathVariable("organizationId") String organizationId) {

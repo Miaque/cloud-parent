@@ -1,1 +1,9 @@
+management:
+    endpoints:
+        web:
+            exposure:
+                include: "*"
 
+zuul:
+    routes:
+        organizationservice: /organization/**
