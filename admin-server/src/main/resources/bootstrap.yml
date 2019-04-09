@@ -1,0 +1,15 @@
+server:
+    port: 9090
+
+spring:
+    application:
+        name: adminserver
+
+eureka:
+    instance:
+        prefer-ip-address: true
+    client:
+        register-with-eureka: true
+        fetch-registry: true
+        service-url:
+            default-zone: http://localhost:8761/eureka/
